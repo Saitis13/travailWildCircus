@@ -1,0 +1,152 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+
+		html {font-size: 100%;}
+		header, footer{
+			padding:40px 0;font-size: 0.85em;background-color: RGB(102,165,158);color: white;text-shadow: 0 1px #4d4d4d;}
+		body {padding: 1em; font-size: 1em; font-family: Verdana, sans-serif;}
+		h1 {margin-top: 0; text-align: center; background: RGB(236,237,237);}
+		h2 {margin-top: 0; text-align: center; background: moccasin;}
+		ul  {padding: 0; margin: 0.85em;}
+        li{list-style: none;}
+        .clear{clear:both;}
+		div#left {
+			float: left;
+			width: 185px;
+			padding: 1px 0;
+			background: red;
+		}
+		div#right {
+			float: right;
+			width: 300px;
+			padding: 1px 0;
+			background: red;
+		}
+		div#center {
+			padding: 1px 20px;
+			margin-left: 200px;
+			margin-right: 310px;
+			background: khaki;
+		}
+
+		/*le tableau*/
+		table {
+  		table-layout: fixed;
+  		width: 100%;
+  		font-size: 1.5em;
+  		border-collapse: collapse;
+  		border: 3px solid khaki;
+		}
+		caption {
+  		font-family: 'Palatino', cursive;
+  		padding: 20px;
+  		font-size: 1.5em
+  		font-style: italic;
+  		caption-side: bottom;
+  		color: #0b1a63;
+  		text-align: center;
+  		letter-spacing: 1px;
+		}
+
+		thead th:nth-child(1) {
+  		width: 30%;
+		}
+
+		thead th:nth-child(2) {
+  		width: 10%;
+		}
+
+		thead th:nth-child(3) {
+  		width: 15%;
+		}
+
+		thead th:nth-child(4) {
+		  width: 35%;
+		}
+
+		thead th, tfoot th {font-family: 'Palatino', cursive;}
+
+		th {letter-spacing: 2px;padding: 20px;}
+
+		td {letter-spacing: 1px;padding: 20px;}
+
+        tbody td { text-align: center;}
+
+		tfoot th {text-align: right;}
+
+/* le formulaire ge */
+		form {
+				  /* Uniquement centrer le formulaire sur la page */
+				  margin: 0 auto;
+				  width: 500px;
+				  /* Encadré pour voir les limites du formulaire */
+				  padding: 1em;
+				  border: 1px solid #CCC;
+				  border-radius: 1em;
+				}
+
+				form div + div {
+				  margin-top: 1em;
+				}
+                /* formulaire envoi */
+				label {
+				  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+				  display: inline-block;
+				  width: 90px;
+				  text-align: right;
+				}
+
+				input, textarea {
+				  /* Pour s'assurer que tous les champs texte ont la même police.
+				     Par défaut, les textarea ont une police monospace */
+				  font: 1em sans-serif;
+
+				  /* Pour que tous les champs texte aient la même dimension */
+				  width: 300px;
+				  box-sizing: border-box;
+
+				  /* Pour harmoniser le look & feel des bordures des champs texte */
+				  border: 1px solid #999;
+				}
+
+				input:focus, textarea:focus {
+				  /* Pour souligner légèrement les éléments actifs */
+				  border-color: #000;
+				}
+
+				textarea {
+				  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+				  vertical-align: top;
+
+				  /* Pour donner assez de place pour écrire du texte */
+				  height: 5em;
+				}
+
+				.button {
+				  /* Pour placer le bouton à la même position que les champs texte */
+				  padding-left: 90px; /* même taille que les étiquettes */
+				}
+
+				button {
+				  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+				     entre les étiquettes et les champs texte */
+				  margin-left: .5em;
+				}
+
+
+
+				/**/
+				#fondetoile{background-image: url("../images/Cieletoile.jpg"); 
+   				color: white;}
+
+   				#calcul{color: blue;
+    			font-size:18px;
+    			font-weight:normal;
+    			text-shadow: 0 1px #4d4d4d; }
+
+				#expliNumerologie{background-image: url("../images/Cieletoile.jpg"); 
+   				font-size:18px;
+   				font-weight:normal;
+   				color: white;}
+
